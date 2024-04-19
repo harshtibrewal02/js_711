@@ -32,24 +32,46 @@
 // console.log(valueInNumber5);
 
 
-// "51" => 51
-// "51abc" => NaN (Not a Number)
-// true => 1 ; false => 0
+// // "51" => 51
+// // "51abc" => NaN (Not a Number)
+// // true => 1 ; false => 0
 
-let isLoggedIn=""
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+// let isLoggedIn=""
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoggedIn);
-console.log(typeof booleanIsLoggedIn);
-
-
-let isLoggedIn1="Harsh"
-let booleanIsLoggedIn1 = Boolean(isLoggedIn1)
-
-console.log(booleanIsLoggedIn1);
-console.log(typeof booleanIsLoggedIn1);
+// console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
 
 
+// let isLoggedIn1="Harsh"
+// let booleanIsLoggedIn1 = Boolean(isLoggedIn1)
 
+// console.log(booleanIsLoggedIn1);
+// console.log(typeof booleanIsLoggedIn1);
+
+
+// Boolean 
 // "" => false 
 // "Harsh" => true
+
+
+
+// ** OPERATIONS **
+
+// let value = 51
+// let negValue=-value
+// // console.log(negValue)
+
+// console.log(2+"1");  // o/p => 21
+// console.log("2"+1);  // 21
+// console.log("2"+1+1);  // 211
+// console.log(2+1+"2");  // 32
+
+// console.log(true);
+// console.log(+true);  // o/p => 1
+// console.log(+"");  // o/p => 0
+
+
+let gameCounter = 100 
+gameCounter++ ;
+console.log(gameCounter);  // o/p => 101
